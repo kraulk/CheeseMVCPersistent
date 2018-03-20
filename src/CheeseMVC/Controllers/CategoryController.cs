@@ -46,7 +46,6 @@ namespace CheeseMVC.Controllers {
         // post
         [HttpPost]
         public IActionResult Add(AddCheeseCategoryViewModel newCategoryContainer) {
-            Console.WriteLine(newCategoryContainer.Name);
             if (!ModelState.IsValid) return View("Add");
             
             context.Categories.Add(new CheeseCategory {

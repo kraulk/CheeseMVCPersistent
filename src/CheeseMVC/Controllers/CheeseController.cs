@@ -13,7 +13,7 @@ namespace CheeseMVC.Controllers
 
         public CheeseController(CheeseDbContext dbContext)
         {
-            context = dbContext;
+            context = dbContext; 
         }
 
         // GET: /<controller>/
