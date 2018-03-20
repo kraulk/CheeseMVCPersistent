@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d19914-f334-43f0-b69f-f414047fff63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Models/Cheese.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Models/Cheese.cs" />
+      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -23,6 +22,23 @@
               <folding>
                 <marker date="1521571880372" expanded="true" signature="61:236" ph="{...}" />
                 <marker date="1521571880372" expanded="true" signature="85:234" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheeseDbContext.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+              <folding>
+                <marker date="1521572492458" expanded="true" signature="6:74" ph="..." />
+                <marker date="1521572492458" expanded="true" signature="100:956" ph="{...}" />
+                <marker date="1521572492458" expanded="true" signature="147:954" ph="{...}" />
+                <marker date="1521572492458" expanded="true" signature="495:631" ph="{...}" />
+                <marker date="1521572492458" expanded="true" signature="735:747" ph="{...}" />
+                <marker date="1521572492458" expanded="true" signature="823:947" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/CheeseMVC/ViewModels/AddCheeseCategoryViewModel.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Category/Add.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Startup.cs" />
-        <option value="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Category/Index.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs" />
@@ -108,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Models/Cheese.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs" />
+        <option value="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +181,13 @@
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CheeseMVC" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CheeseMVC (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CheeseMVC" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -269,7 +292,7 @@
       <workItem from="1520883325503" duration="10655000" />
       <workItem from="1521553429441" duration="1933000" />
       <workItem from="1521560310545" duration="115000" />
-      <workItem from="1521560898876" duration="5121000" />
+      <workItem from="1521560898876" duration="5684000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for LC101 students using Unix based systems&#10;&#10;uses SQLite as an alternative">
       <created>1520761269672</created>
@@ -327,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521570374530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adds Menu and CheeseMenu classes and joins">
+      <created>1521571923318</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521571923318</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22917000" />
+    <option name="totallyTimeSpent" value="23480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +415,8 @@
     <MESSAGE value="Completed single model data persistence&#10;&#10;Cleaned up and added some links to the navbar and Categories page" />
     <MESSAGE value="Completed work for studio part 2" />
     <MESSAGE value="Start of studio 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of studio 3" />
+    <MESSAGE value="Adds Menu and CheeseMenu classes and joins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Menu and CheeseMenu classes and joins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -617,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseMVC/ViewModels/AddCheeseCategoryViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -785,17 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <marker date="1521571882143" expanded="true" signature="26:235" ph="{...}" />
-            <marker date="1521571882143" expanded="true" signature="56:233" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/Cheese.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -814,6 +827,32 @@
           <folding>
             <marker date="1521571880372" expanded="true" signature="61:236" ph="{...}" />
             <marker date="1521571880372" expanded="true" signature="85:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <marker date="1521571882143" expanded="true" signature="26:235" ph="{...}" />
+            <marker date="1521571882143" expanded="true" signature="56:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <marker date="1521572492458" expanded="true" signature="6:74" ph="..." />
+            <marker date="1521572492458" expanded="true" signature="100:956" ph="{...}" />
+            <marker date="1521572492458" expanded="true" signature="147:954" ph="{...}" />
+            <marker date="1521572492458" expanded="true" signature="495:631" ph="{...}" />
+            <marker date="1521572492458" expanded="true" signature="735:747" ph="{...}" />
+            <marker date="1521572492458" expanded="true" signature="823:947" ph="{...}" />
           </folding>
         </state>
       </provider>
