@@ -23,7 +23,7 @@ namespace CheeseMVC.Data
             : base(options)
         { }
 
-        protected override Void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CheeseMenu>()
                 .HasKey(c => new {c.CheeseID, c.MenuID});
