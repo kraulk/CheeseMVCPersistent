@@ -48,7 +48,9 @@
           <e p="ViewModels" t="Include">
             <e p="AddCheeseCategoryViewModel.cs" t="Include" />
             <e p="AddCheeseViewModel.cs" t="Include" />
+            <e p="AddMenuItemViewModel.cs" t="Include" />
             <e p="AddMenuViewModel.cs" t="Include" />
+            <e p="ViewMenuViewModel.cs" t="Include" />
           </e>
           <e p="Views" t="Include">
             <e p="_ViewImports.cshtml" t="Include" />
@@ -68,7 +70,9 @@
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="Menu" t="Include">
+              <e p="Add.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
+              <e p="ViewMenu.cshtml" t="Include" />
             </e>
             <e p="Shared" t="Include">
               <e p="_Layout.cshtml" t="Include" />
