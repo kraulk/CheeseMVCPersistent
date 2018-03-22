@@ -71,6 +71,7 @@
             </e>
             <e p="Menu" t="Include">
               <e p="Add.cshtml" t="Include" />
+              <e p="AddItem.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
               <e p="ViewMenu.cshtml" t="Include" />
             </e>
