@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d19914-f334-43f0-b69f-f414047fff63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -401,7 +400,7 @@
       <workItem from="1520883325503" duration="10655000" />
       <workItem from="1521553429441" duration="1933000" />
       <workItem from="1521560310545" duration="115000" />
-      <workItem from="1521560898876" duration="14900000" />
+      <workItem from="1521560898876" duration="14936000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for LC101 students using Unix based systems&#10;&#10;uses SQLite as an alternative">
       <created>1520761269672</created>
@@ -480,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521671373367</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Progressing through adding menu item">
+      <created>1521681494121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521681494121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32696000" />
+    <option name="totallyTimeSpent" value="32732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,7 +547,8 @@
     <MESSAGE value="Adds Menu and CheeseMenu classes and joins" />
     <MESSAGE value="Updates CheeseDbContext" />
     <MESSAGE value="Starts AddMenu work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starts AddMenu work" />
+    <MESSAGE value="Progressing through adding menu item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progressing through adding menu item" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
