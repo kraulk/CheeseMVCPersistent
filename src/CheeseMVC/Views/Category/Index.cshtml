@@ -13,7 +13,9 @@
     @if (Model.Count > 0) {
         <ul>
             @foreach (var category in Model) {
-                <li>@category.Name</li>
+                <li>
+                    <a>@category.Name</a>
+                </li>
             }
         </ul>
     }
