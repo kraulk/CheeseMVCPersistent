@@ -1,6 +1,6 @@
 ﻿@using CheeseMVC.ViewModels
 @model AddMenuViewModel 
-@{ViewBag.Title="New Menu"}
+@{ ViewBag.Title = "New Menu";}
 
 <!DOCTYPE html>
 
@@ -9,6 +9,7 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
+<form asp-controller="Menu" asp-action="Add" method="post">
 <div>
     <label asp-for="Name"></label>
     <input asp-for="Name"/>
@@ -17,5 +18,7 @@
 <div>
     <input type="submit" value="Submit"/>
 </div>
+</form>
+
 </body>
 </html>

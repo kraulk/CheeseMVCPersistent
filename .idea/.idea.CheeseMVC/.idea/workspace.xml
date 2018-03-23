@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81d19914-f334-43f0-b69f-f414047fff63" name="Default" comment="Meeting assignment requirement">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CheeseMVC/CheeseMVC.sqlite" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/contentModel.xml" />
+    <list default="true" id="81d19914-f334-43f0-b69f-f414047fff63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CheeseMVC/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Views/Category/Index.cshtml" afterPath="$PROJECT_DIR$/src/CheeseMVC/Views/Category/Index.cshtml" />
-      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml" afterPath="$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml" />
+      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/CheeseMVC.sqlite" afterPath="$PROJECT_DIR$/src/CheeseMVC/CheeseMVC.sqlite" />
+      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs" afterPath="$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs" />
+      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml" afterPath="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml" />
+      <change beforePath="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml" afterPath="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,125 +17,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Category/Index.cshtml">
+      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
               <folding>
-                <marker date="1521690715156" expanded="true" signature="52:231" ph="@*...*@" />
-                <marker date="1521690715156" expanded="true" signature="249:722" ph="&lt;html.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="256:307" ph="&lt;head.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="308:714" ph="&lt;body.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="315:706" ph="&lt;div.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="325:613" ph="@..." />
-                <marker date="1521690715156" expanded="true" signature="347:527" ph="{...}" />
-                <marker date="1521690715156" expanded="true" signature="357:521" ph="&lt;ul.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="374:507" ph="@..." />
-                <marker date="1521690715156" expanded="true" signature="407:507" ph="{...}" />
-                <marker date="1521690715156" expanded="true" signature="425:493" ph="&lt;li.../&gt;" />
-                <marker date="1521690715156" expanded="true" signature="527:613" ph="{...}" />
+                <marker date="1521573011830" expanded="true" signature="61:262" ph="{...}" />
+                <marker date="1521573011830" expanded="true" signature="85:260" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs">
+      <file leaf-file-name="CheeseMenu.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <marker date="1521690154791" expanded="false" signature="6:138" ph="..." />
-                <marker date="1521690154791" expanded="true" signature="172:2494" ph="{...}" />
-                <marker date="1521690154791" expanded="true" signature="223:2492" ph="{...}" />
-                <marker date="1521690154791" expanded="true" signature="242:486" ph="/* first we add the context as a field ... */" />
-                <marker date="1521690154791" expanded="true" signature="555:1740" ph="/* the controller constructor will instantiate the controller with the context made available ... */" />
-                <marker date="1521690154791" expanded="true" signature="1802:1846" ph="{...}" />
-                <marker date="1521690154791" expanded="true" signature="2187:2467" ph="{...}" />
-                <marker date="1521690154791" expanded="true" signature="2313:2377" ph="{...}" />
+                <marker date="1521571882143" expanded="true" signature="26:235" ph="{...}" />
+                <marker date="1521571882143" expanded="true" signature="56:233" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheeseCategory.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseCategory.cs">
+      <file leaf-file-name="Add.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
-                <marker date="1521558715000" expanded="true" signature="62:240" ph="{...}" />
-                <marker date="1521558715000" expanded="true" signature="96:238" ph="{...}" />
+                <marker date="1521763314339" expanded="true" signature="103:425" ph="&lt;html.../&gt;" />
+                <marker date="1521763314339" expanded="true" signature="110:158" ph="&lt;head.../&gt;" />
+                <marker date="1521763314339" expanded="true" signature="159:417" ph="&lt;body.../&gt;" />
+                <marker date="1521763314339" expanded="true" signature="166:408" ph="&lt;form.../&gt;" />
+                <marker date="1521763314339" expanded="true" signature="226:345" ph="&lt;div.../&gt;" />
+                <marker date="1521763314339" expanded="true" signature="346:400" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheeseController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs">
+      <file leaf-file-name="AddItem.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="143">
+              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
-                <marker date="1521690696069" expanded="false" signature="6:195" ph="..." />
-                <marker date="1521690696069" expanded="true" signature="228:2292" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="277:2290" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="393:447" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="516:657" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="693:880" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="972:1721" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="1018:1665" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="1316:1517" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="1760:1909" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="1982:2282" ph="{...}" />
-                <marker date="1521690696069" expanded="true" signature="2040:2201" ph="{...}" />
+                <marker date="1521763492067" expanded="true" signature="134:665" ph="&lt;html.../&gt;" />
+                <marker date="1521763492067" expanded="true" signature="141:189" ph="&lt;head.../&gt;" />
+                <marker date="1521763492067" expanded="true" signature="190:657" ph="&lt;body.../&gt;" />
+                <marker date="1521763492067" expanded="true" signature="197:649" ph="&lt;div.../&gt;" />
+                <marker date="1521763492067" expanded="true" signature="207:642" ph="&lt;form.../&gt;" />
+                <marker date="1521763492067" expanded="true" signature="279:496" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Shared/_Layout.cshtml">
+      <file leaf-file-name="Add.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Add.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+            <state relative-caret-position="-62">
+              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding>
-                <marker date="1521688602821" expanded="true" signature="16:3018" ph="&lt;html.../&gt;" />
-                <marker date="1521688602821" expanded="false" signature="23:846" ph="&lt;head.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="191:379" ph="&lt;environment.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="384:838" ph="&lt;environment.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="847:3010" ph="&lt;body.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="858:1895" ph="&lt;div.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="919:1884" ph="&lt;div.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="955:1471" ph="&lt;div.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="999:1343" ph="&lt;button.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="1484:1869" ph="&lt;div.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="1539:1850" ph="&lt;ul.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="1900:2062" ph="&lt;div.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="1982:2051" ph="&lt;footer.../&gt;" />
-                <marker date="1521688602821" expanded="false" signature="2068:2320" ph="&lt;environment.../&gt;" />
-                <marker date="1521688602821" expanded="false" signature="2325:2954" ph="&lt;environment.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="2374:2582" ph="&lt;script.../&gt;" />
-                <marker date="1521688602821" expanded="true" signature="2591:2860" ph="&lt;script.../&gt;" />
+                <marker date="1521564627091" expanded="true" signature="69:733" ph="&lt;form.../&gt;" />
+                <marker date="1521564627091" expanded="true" signature="136:312" ph="&lt;div.../&gt;" />
+                <marker date="1521564627091" expanded="true" signature="317:514" ph="&lt;div.../&gt;" />
+                <marker date="1521564627091" expanded="true" signature="520:676" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml">
+      <file leaf-file-name="MenuController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
               <folding>
-                <marker date="1521689156763" expanded="true" signature="63:379" ph="&lt;table.../&gt;" />
-                <marker date="1521689156763" expanded="true" signature="90:177" ph="&lt;tr.../&gt;" />
-                <marker date="1521689156763" expanded="true" signature="183:370" ph="@..." />
-                <marker date="1521689156763" expanded="true" signature="213:370" ph="{...}" />
-                <marker date="1521689156763" expanded="true" signature="228:364" ph="&lt;tr.../&gt;" />
-                <marker date="1521689156763" expanded="true" signature="381:434" ph="@..." />
-                <marker date="1521689156763" expanded="true" signature="403:434" ph="{...}" />
+                <marker date="1521763579907" expanded="false" signature="6:195" ph="..." />
+                <marker date="1521763579907" expanded="true" signature="228:3285" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="275:3283" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="389:443" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="495:602" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="661:796" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="884:1357" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="930:1254" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="1003:1071" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="1272:1347" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="1404:1915" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="1772:1846" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="1961:2172" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="2272:3277" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="2319:3218" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="2714:3104" ph="{...}" />
+                <marker date="1521763579907" expanded="true" signature="2810:2986" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,19 +177,19 @@
         <option value="$PROJECT_DIR$/src/CheeseMVC/Models/Cheese.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/ViewModels/AddMenuViewModel.cs" />
-        <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Index.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/ViewModels/ViewMenuViewModel.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/ViewMenu.cshtml" />
-        <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/ViewModels/AddMenuItemViewModel.cs" />
-        <option value="$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs" />
         <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Category/Index.cshtml" />
+        <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml" />
+        <option value="$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml" />
+        <option value="$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs" />
       </list>
     </option>
   </component>
@@ -271,6 +247,13 @@
               <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CheeseMVC" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CheeseMVC (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="src" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CheeseMVC" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -391,7 +374,7 @@
       <workItem from="1520883325503" duration="10655000" />
       <workItem from="1521553429441" duration="1933000" />
       <workItem from="1521560310545" duration="115000" />
-      <workItem from="1521560898876" duration="21132000" />
+      <workItem from="1521560898876" duration="23267000" />
     </task>
     <task id="LOCAL-00001" summary="Fix for LC101 students using Unix based systems&#10;&#10;uses SQLite as an alternative">
       <created>1520761269672</created>
@@ -498,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521688935757</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Meeting assignment requirement">
+      <created>1521691047114</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1521691047116</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38928000" />
+    <option name="totallyTimeSpent" value="41063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,17 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-          <folding>
-            <marker date="1521573011830" expanded="true" signature="61:262" ph="{...}" />
-            <marker date="1521573011830" expanded="true" signature="85:260" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Remove.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -800,78 +779,6 @@
             <marker date="1521158979000" expanded="true" signature="51:258" ph="@..." />
             <marker date="1521158979000" expanded="true" signature="91:258" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1521571882143" expanded="true" signature="26:235" ph="{...}" />
-            <marker date="1521571882143" expanded="true" signature="56:233" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Add.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <marker date="1521564627091" expanded="true" signature="69:733" ph="&lt;form.../&gt;" />
-            <marker date="1521564627091" expanded="true" signature="136:312" ph="&lt;div.../&gt;" />
-            <marker date="1521564627091" expanded="true" signature="317:514" ph="&lt;div.../&gt;" />
-            <marker date="1521564627091" expanded="true" signature="520:676" ph="&lt;div.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1521673787024" expanded="true" signature="99:352" ph="&lt;html.../&gt;" />
-            <marker date="1521673787024" expanded="true" signature="106:154" ph="&lt;head.../&gt;" />
-            <marker date="1521673787024" expanded="true" signature="155:344" ph="&lt;body.../&gt;" />
-            <marker date="1521673787024" expanded="true" signature="162:281" ph="&lt;div.../&gt;" />
-            <marker date="1521673787024" expanded="true" signature="282:336" ph="&lt;div.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding>
-            <marker date="1521687675850" expanded="true" signature="6:195" ph="..." />
-            <marker date="1521687675850" expanded="true" signature="228:3281" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="275:3279" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="389:443" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="495:602" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="661:796" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="884:1357" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="930:1254" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="1003:1071" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="1272:1347" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="1404:1915" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="1772:1846" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="1961:2172" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="2272:3273" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="2319:3214" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="2714:3104" ph="{...}" />
-            <marker date="1521687675850" expanded="true" signature="2810:2986" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,32 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-          <folding>
-            <marker date="1521688602821" expanded="true" signature="16:3018" ph="&lt;html.../&gt;" />
-            <marker date="1521688602821" expanded="false" signature="23:846" ph="&lt;head.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="191:379" ph="&lt;environment.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="384:838" ph="&lt;environment.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="847:3010" ph="&lt;body.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="858:1895" ph="&lt;div.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="919:1884" ph="&lt;div.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="955:1471" ph="&lt;div.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="999:1343" ph="&lt;button.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="1484:1869" ph="&lt;div.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="1539:1850" ph="&lt;ul.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="1900:2062" ph="&lt;div.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="1982:2051" ph="&lt;footer.../&gt;" />
-            <marker date="1521688602821" expanded="false" signature="2068:2320" ph="&lt;environment.../&gt;" />
-            <marker date="1521688602821" expanded="false" signature="2325:2954" ph="&lt;environment.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="2374:2582" ph="&lt;script.../&gt;" />
-            <marker date="1521688602821" expanded="true" signature="2591:2860" ph="&lt;script.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Data/CheeseDbContext.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1020,33 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1521689156763" expanded="true" signature="63:379" ph="&lt;table.../&gt;" />
-            <marker date="1521689156763" expanded="true" signature="90:177" ph="&lt;tr.../&gt;" />
-            <marker date="1521689156763" expanded="true" signature="183:370" ph="@..." />
-            <marker date="1521689156763" expanded="true" signature="213:370" ph="{...}" />
-            <marker date="1521689156763" expanded="true" signature="228:364" ph="&lt;tr.../&gt;" />
-            <marker date="1521689156763" expanded="true" signature="381:434" ph="@..." />
-            <marker date="1521689156763" expanded="true" signature="403:434" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseCategory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <marker date="1521558715000" expanded="true" signature="62:240" ph="{...}" />
-            <marker date="1521558715000" expanded="true" signature="96:238" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/CategoryController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -1060,27 +914,6 @@
             <marker date="1521690154791" expanded="true" signature="1802:1846" ph="{...}" />
             <marker date="1521690154791" expanded="true" signature="2187:2467" ph="{...}" />
             <marker date="1521690154791" expanded="true" signature="2313:2377" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <marker date="1521690696069" expanded="false" signature="6:195" ph="..." />
-            <marker date="1521690696069" expanded="true" signature="228:2292" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="277:2290" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="393:447" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="516:657" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="693:880" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="972:1721" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="1018:1665" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="1316:1517" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="1760:1909" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="1982:2282" ph="{...}" />
-            <marker date="1521690696069" expanded="true" signature="2040:2201" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1102,6 +935,171 @@
             <marker date="1521690715156" expanded="true" signature="407:507" ph="{...}" />
             <marker date="1521690715156" expanded="true" signature="425:493" ph="&lt;li.../&gt;" />
             <marker date="1521690715156" expanded="true" signature="527:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseCategory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <marker date="1521558715000" expanded="true" signature="62:240" ph="{...}" />
+            <marker date="1521558715000" expanded="true" signature="96:238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/CheeseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <marker date="1521690696069" expanded="false" signature="6:195" ph="..." />
+            <marker date="1521690696069" expanded="true" signature="228:2292" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="277:2290" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="393:447" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="516:657" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="693:880" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="972:1721" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="1018:1665" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="1316:1517" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="1760:1909" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="1982:2282" ph="{...}" />
+            <marker date="1521690696069" expanded="true" signature="2040:2201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+          <folding>
+            <marker date="1521688602821" expanded="true" signature="16:3018" ph="&lt;html.../&gt;" />
+            <marker date="1521688602821" expanded="false" signature="23:846" ph="&lt;head.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="191:379" ph="&lt;environment.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="384:838" ph="&lt;environment.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="847:3010" ph="&lt;body.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="858:1895" ph="&lt;div.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="919:1884" ph="&lt;div.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="955:1471" ph="&lt;div.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="999:1343" ph="&lt;button.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="1484:1869" ph="&lt;div.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="1539:1850" ph="&lt;ul.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="1900:2062" ph="&lt;div.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="1982:2051" ph="&lt;footer.../&gt;" />
+            <marker date="1521688602821" expanded="false" signature="2068:2320" ph="&lt;environment.../&gt;" />
+            <marker date="1521688602821" expanded="false" signature="2325:2954" ph="&lt;environment.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="2374:2582" ph="&lt;script.../&gt;" />
+            <marker date="1521688602821" expanded="true" signature="2591:2860" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1521689156763" expanded="true" signature="63:379" ph="&lt;table.../&gt;" />
+            <marker date="1521689156763" expanded="true" signature="90:177" ph="&lt;tr.../&gt;" />
+            <marker date="1521689156763" expanded="true" signature="183:370" ph="@..." />
+            <marker date="1521689156763" expanded="true" signature="213:370" ph="{...}" />
+            <marker date="1521689156763" expanded="true" signature="228:364" ph="&lt;tr.../&gt;" />
+            <marker date="1521689156763" expanded="true" signature="381:434" ph="@..." />
+            <marker date="1521689156763" expanded="true" signature="403:434" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+          <folding>
+            <marker date="1521573011830" expanded="true" signature="61:262" ph="{...}" />
+            <marker date="1521573011830" expanded="true" signature="85:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Models/CheeseMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1521571882143" expanded="true" signature="26:235" ph="{...}" />
+            <marker date="1521571882143" expanded="true" signature="56:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Cheese/Add.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding>
+            <marker date="1521564627091" expanded="true" signature="69:733" ph="&lt;form.../&gt;" />
+            <marker date="1521564627091" expanded="true" signature="136:312" ph="&lt;div.../&gt;" />
+            <marker date="1521564627091" expanded="true" signature="317:514" ph="&lt;div.../&gt;" />
+            <marker date="1521564627091" expanded="true" signature="520:676" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/Add.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <marker date="1521763314339" expanded="true" signature="103:425" ph="&lt;html.../&gt;" />
+            <marker date="1521763314339" expanded="true" signature="110:158" ph="&lt;head.../&gt;" />
+            <marker date="1521763314339" expanded="true" signature="159:417" ph="&lt;body.../&gt;" />
+            <marker date="1521763314339" expanded="true" signature="166:408" ph="&lt;form.../&gt;" />
+            <marker date="1521763314339" expanded="true" signature="226:345" ph="&lt;div.../&gt;" />
+            <marker date="1521763314339" expanded="true" signature="346:400" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Views/Menu/AddItem.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <marker date="1521763492067" expanded="true" signature="134:665" ph="&lt;html.../&gt;" />
+            <marker date="1521763492067" expanded="true" signature="141:189" ph="&lt;head.../&gt;" />
+            <marker date="1521763492067" expanded="true" signature="190:657" ph="&lt;body.../&gt;" />
+            <marker date="1521763492067" expanded="true" signature="197:649" ph="&lt;div.../&gt;" />
+            <marker date="1521763492067" expanded="true" signature="207:642" ph="&lt;form.../&gt;" />
+            <marker date="1521763492067" expanded="true" signature="279:496" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheeseMVC/Controllers/MenuController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="108" column="61" lean-forward="false" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+          <folding>
+            <marker date="1521763579907" expanded="false" signature="6:195" ph="..." />
+            <marker date="1521763579907" expanded="true" signature="228:3285" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="275:3283" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="389:443" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="495:602" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="661:796" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="884:1357" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="930:1254" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="1003:1071" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="1272:1347" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="1404:1915" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="1772:1846" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="1961:2172" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="2272:3277" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="2319:3218" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="2714:3104" ph="{...}" />
+            <marker date="1521763579907" expanded="true" signature="2810:2986" ph="{...}" />
           </folding>
         </state>
       </provider>
